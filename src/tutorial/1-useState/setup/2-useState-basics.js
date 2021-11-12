@@ -1,10 +1,13 @@
 
 import React, { useState } from 'react';
-// useState - function
+// use
+// componente name must be uppercase
+// must be in the function/componente body
+// cannot call conditionally
 
 
 const UseStateBasics = () => {
-	
+
 	const [text, setText] = useState('Random title');
 
 	const handleClick = () => {
